@@ -1,8 +1,8 @@
-## securely connect to XXX with its Certificate  
+## Securely connect to XXX with its Certificate  
 ```
 openssl s_client -connect www.baidu.com:443
 ```
-## show a Certificate
+## Show a Certificate
 ```
 openssl x509 -in baidu.pem
 openssl x509 -in baidu.pem -text -noout
@@ -28,12 +28,12 @@ openssl x509 -in baidu.pem -text -noout
   openssl ecparam -genkey -name secp256r1 | openssl ec -out ec.key
   ```
 
-- show key
+- Show key
   ```
   openssl rsa -text -in rsa.key 
   ```
   
-- extract key
+- Extract key
   ```
   openssl rsa -in rsa.key -pubout -out rsa-public.key
   ```
@@ -43,7 +43,7 @@ openssl x509 -in baidu.pem -text -noout
   ```
   openssl req -new -key rsa.key out rsa.csr
   ``` 
-- show
+- Show
   ```
   openssl req -text -in rsa.csr -noout
   ```
