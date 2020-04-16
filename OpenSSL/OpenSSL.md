@@ -1,4 +1,4 @@
-## Securely connect to XXX with its Certificate  
+## Securely connect to XXX
 ```
 openssl s_client -connect www.baidu.com:443
 ```
