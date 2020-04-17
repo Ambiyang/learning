@@ -1,5 +1,5 @@
 ## Note  
-`The way to install openssl changes depends on openssl version and env(os,vs etc..) used`
+`The way to install openssl changes depending on the version of openssl and environment(os,vs etc..)`
 
 ## Download
 - OpenSSL Source  
