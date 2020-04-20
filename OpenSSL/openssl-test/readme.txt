@@ -1,3 +1,3 @@
-This a a project for learning openssl library
+This is a project for learning openssl library
 
-Before run it do the steps wrote in setting.md
+Before running it do the steps wrote in setting.md
