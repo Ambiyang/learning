@@ -41,7 +41,7 @@ openssl x509 -in baidu.pem -text -noout
 ## CSR
 - Create
   ```
-  openssl req -new -key rsa.key out rsa.csr
+  openssl req -new -key rsa.key -out rsa.csr
   ``` 
 - Show
   ```
