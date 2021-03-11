@@ -8,7 +8,7 @@ def kmeans(ds,k):
     distance = np.sqrt(np.sum(d,axis = 2))
     index_min = np.argmin(distance,axis=1)
     
-    if (index_min = result).all():
+    if (index_min == result).all():
       return result,cores
     
     result[:] = index_min
